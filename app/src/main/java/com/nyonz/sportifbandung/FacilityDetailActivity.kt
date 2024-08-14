@@ -39,7 +39,7 @@ class FacilityDetailActivity : AppCompatActivity() {
 
         // Inisialisasi view dari layout
         imageFacilityDetail = findViewById(R.id.image_facility_detail)
-        nameFacilityText = findViewById(R.id.nama_prasarana_olahraga)
+        nameFacilityText = findViewById(R.id.nama_prasarana)
         descriptionFacilityDetail = findViewById(R.id.description_facility_detail)
         buttonBooking = findViewById(R.id.button_booking)
         buttonBack = findViewById(R.id.button_back)

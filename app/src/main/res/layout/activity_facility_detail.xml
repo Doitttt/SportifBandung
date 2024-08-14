@@ -27,12 +27,9 @@
             android:scaleType="centerCrop"
             android:layout_marginTop="8dp"/>
 
-        <!-- Nama Facility -->
 
-
-        <!-- Deskripsi Facility -->
         <TextView
-            android:id="@+id/nama_prasarana_olahraga"
+            android:id="@+id/nama_prasarana"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Facility Name"
