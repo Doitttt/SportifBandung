@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "12822001028",
+    "firebase_url": "https://sportif-bandung-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "sportif-bandung",
+    "storage_bucket": "sportif-bandung.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:12822001028:android:7544982ad7d3420ac219d1",
+        "android_client_info": {
+          "package_name": "com.nyonz.sportifbandung"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzW7oprcOQ7m9yNYqMb8zGPbT1H6EI82c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

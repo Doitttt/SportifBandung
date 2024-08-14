@@ -1,0 +1,60 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Tombol Kembali -->
+        <ImageButton
+            android:id="@+id/button_back"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:layout_gravity="start"
+            android:contentDescription="Kembali"
+            android:src="@drawable/ic_arrow_back" />
+
+        <!-- Gambar Facility -->
+        <ImageView
+            android:id="@+id/image_facility_detail"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/ic_facility_placeholder"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Nama Facility -->
+
+
+        <!-- Deskripsi Facility -->
+        <TextView
+            android:id="@+id/nama_prasarana_olahraga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Facility Name"
+            android:textColor="@color/material_on_background_high_emphasis"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/description_facility_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Facility Description"
+            android:paddingTop="8dp" />
+
+        <!-- Tombol Booking -->
+
+        <Button
+            android:id="@+id/button_booking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Booking"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+</ScrollView>

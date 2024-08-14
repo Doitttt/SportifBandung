@@ -1,0 +1,11 @@
+<!-- res/menu/bottom_nav_menu.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_facility"
+        android:icon="@drawable/ic_facility"
+        android:title="Facility" />
+    <item
+        android:id="@+id/navigation_booking"
+        android:icon="@drawable/ic_booking"
+        android:title="Booking" />
+</menu>

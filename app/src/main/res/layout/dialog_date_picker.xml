@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Nama Pembooking -->
+    <EditText
+        android:id="@+id/edittext_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama/Organisasi"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/rounded_edittext"/>
+
+    <!-- Kontak Pembooking -->
+    <EditText
+        android:id="@+id/edittext_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kontak"
+        android:inputType="phone"
+        android:padding="12dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/rounded_edittext"/>
+
+    <!-- Tanggal Booking -->
+    <EditText
+        android:id="@+id/edittext_booking_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tanggal Booking"
+        android:focusable="false"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/rounded_edittext"
+        android:clickable="true"/>
+
+</LinearLayout>
