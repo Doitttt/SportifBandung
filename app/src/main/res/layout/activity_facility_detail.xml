@@ -41,7 +41,7 @@
             android:id="@+id/description_facility_detail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Facility Description"
+            android:text="Facility Location"
             android:paddingTop="8dp" />
 
         <!-- Tombol Booking -->
