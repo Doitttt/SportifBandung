@@ -18,8 +18,7 @@ class MainActivity : AppCompatActivity() {
         val bottomNavigationView: BottomNavigationView = findViewById(R.id.bottom_navigation)
         bottomNavigationView.inflateMenu(R.menu.bottom_nav_menu)
 
-        // Set default fragment saat pertama kali dibuka
-        if (savedInstanceState == null) {
+               if (savedInstanceState == null) {
             loadFragment(FacilityFragment())
         }
 
